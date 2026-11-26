@@ -20,3 +20,9 @@ Lightweight, zero-dependency triage scripts designed to rapidly collect volatile
 chmod +x linux/ir_triage_linux.sh
 sudo ./linux/ir_triage_linux.sh -o /tmp/ir-triage
 ```
+### windows(run as administrator)
+```bash
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\windows\Invoke-IRTriage.ps1 -OutputPath "C:\IR-Triage"
+```
+
